@@ -1,0 +1,16 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: markdown
+- file: notebooks
+- file: markdown-notebooks
+- caption: EDA Analysis
+chapters:
+  # Part 1
+  - file: EDA_filename
+  - file: EDA/point_analysis_subset
+  - file: EDA/point_analysis_subset_relativeEval
+  - file: EDA/point_analysis_subset_relativeEval-ALL
